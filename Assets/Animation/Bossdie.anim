@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!74 &7400000
+AnimationClip:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Bossdie
+  serializedVersion: 6
+  m_Legacy: 0
+  m_Compressed: 0
+  m_UseHighQualityCurve: 1
+  m_RotationCurves: []
+  m_CompressedRotationCurves: []
+  m_EulerCurves: []
+  m_PositionCurves: []
+  m_ScaleCurves: []
+  m_FloatCurves: []
+  m_PPtrCurves:
+  - curve:
+    - time: 0
+      value: {fileID: 21300000, guid: 1b70b7fb87f57f5438e5c66587b215b9, type: 3}
+    - time: 0.1
+      value: {fileID: 21300000, guid: 71c5efa2c0d729842890f5a99c2b3e49, type: 3}
+    - time: 0.2
+      value: {fileID: 21300000, guid: bee184474fc99d34698e3c8905f9cf30, type: 3}
+    - time: 0.3
+      value: {fileID: 21300000, guid: 494ba9174f5a3054885ef12192933040, type: 3}
+    - time: 0.4
+      value: {fileID: 21300000, guid: 6e50a91e65561d2449f58647ab6427cb, type: 3}
+    - time: 0.5
+      value: {fileID: 21300000, guid: c1d06e5bcfb098b4d94c2973e3038e0e, type: 3}
+    - time: 0.6
+      value: {fileID: 21300000, guid: 7663d4bf8ac8dc146addc4a0c5c1d938, type: 3}
+    - time: 0.7
+      value: {fileID: 21300000, guid: c5aad6683f7af4741b207844fcb24236, type: 3}
+    - time: 0.8
+      value: {fileID: 21300000, guid: 760aca6250e3ea34da10699466e44549, type: 3}
+    attribute: m_Sprite
+    path: 
+    classID: 212
+    script: {fileID: 0}
+  m_SampleRate: 10
+  m_WrapMode: 0
+  m_Bounds:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  m_ClipBindingConstant:
+    genericBindings:
+    - serializedVersion: 2
+      path: 0
+      attribute: 0
+      script: {fileID: 0}
+      typeID: 212
+      customType: 23
+      isPPtrCurve: 1
+    pptrCurveMapping:
+    - {fileID: 21300000, guid: 1b70b7fb87f57f5438e5c66587b215b9, type: 3}
+    - {fileID: 21300000, guid: 71c5efa2c0d729842890f5a99c2b3e49, type: 3}
+    - {fileID: 21300000, guid: bee184474fc99d34698e3c8905f9cf30, type: 3}
+    - {fileID: 21300000, guid: 494ba9174f5a3054885ef12192933040, type: 3}
+    - {fileID: 21300000, guid: 6e50a91e65561d2449f58647ab6427cb, type: 3}
+    - {fileID: 21300000, guid: c1d06e5bcfb098b4d94c2973e3038e0e, type: 3}
+    - {fileID: 21300000, guid: 7663d4bf8ac8dc146addc4a0c5c1d938, type: 3}
+    - {fileID: 21300000, guid: c5aad6683f7af4741b207844fcb24236, type: 3}
+    - {fileID: 21300000, guid: 760aca6250e3ea34da10699466e44549, type: 3}
+  m_AnimationClipSettings:
+    serializedVersion: 2
+    m_AdditiveReferencePoseClip: {fileID: 0}
+    m_AdditiveReferencePoseTime: 0
+    m_StartTime: 0
+    m_StopTime: 0.9
+    m_OrientationOffsetY: 0
+    m_Level: 0
+    m_CycleOffset: 0
+    m_HasAdditiveReferencePose: 0
+    m_LoopTime: 0
+    m_LoopBlend: 0
+    m_LoopBlendOrientation: 0
+    m_LoopBlendPositionY: 0
+    m_LoopBlendPositionXZ: 0
+    m_KeepOriginalOrientation: 0
+    m_KeepOriginalPositionY: 1
+    m_KeepOriginalPositionXZ: 0
+    m_HeightFromFeet: 0
+    m_Mirror: 0
+  m_EditorCurves: []
+  m_EulerEditorCurves: []
+  m_HasGenericRootTransform: 0
+  m_HasMotionFloatCurves: 0
+  m_GenerateMotionCurves: 0
+  m_Events:
+  - time: 0.9
+    functionName: DestroyMethod
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
